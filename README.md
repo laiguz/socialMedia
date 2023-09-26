@@ -3,7 +3,7 @@
 # Site básico 
 ## Pacote redes sociais
 -Dependencias: 
-    >Search Bar personalizado
+    > Search Bar personalizado
 ### V 0.1 
     -Migrate
     -Modal
@@ -20,8 +20,8 @@ Route::get('/mídias-sociais', SocialMedia::class)->name('social-media');
                             {{ Request::is('*mídias*') ? 'bg-gradient-to-r from-white to-blue-100
                             dark:from-gray-700 dark:to-gray-800 text-blue-500 border-r-4 border-blue-500' :
                             'dark:text-gray-200 hover:text-blue-500 text-gray-500' }}" >
-                            ><span class="text-left">
-                            ><svg class="w-6 h-6" fill="currentColor" viewBox="-1 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <span class="text-left">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="-1 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <title>share</title>
                                     <desc>Created with Sketch Beta.</desc>
                                     <defs>
@@ -34,7 +34,7 @@ Route::get('/mídias-sociais', SocialMedia::class)->name('social-media');
                                     </g>
                                 </svg>
                             </span>
-                            ><span class="mx-4 text-sm font-normal">
+                            <span class="mx-4 text-sm font-normal">
                                 Mídias sociais
                             </span>
                     <\a>
