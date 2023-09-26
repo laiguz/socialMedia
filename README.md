@@ -2,7 +2,7 @@
 
 # Site básico 
 ## Pacote redes sociais
--Dependencias: 
+#### Dependencias: 
 > Search Bar personalizado
 ### V 0.1 
     -Migrate
